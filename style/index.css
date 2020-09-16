@@ -91,9 +91,13 @@ video {
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rock+Salt&display=swap");
 
 body {
-  background: linear-gradient(to left, #4682b4, #3b4856, #9fadbd);
   font-size: 62.5%;
   font-family: "Press Start 2P", cursive;
+}
+
+#gamer {
+  background: url("../background/arcade.jpg") no-repeat;
+  background-size: cover;
 }
 
 header {
@@ -227,4 +231,128 @@ address {
   font-size: 2rem;
   color: #ffffff;
   padding: 200px;
+}
+
+@media (max-width: 800px) {
+  #gamer {
+    text-align: center;
+  }
+
+  nav a {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #intro {
+    flex-direction: column;
+  }
+
+  #project1 {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+  #project2 {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  
+  #project3 {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  
+  #project4 {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  
+  #project5 {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  
+  #project6 {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  
+  #project7 {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  
+  #project8 {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  #gamer {
+    text-align: center;
+  }
+
+  nav a {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #intro {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  #intro-text {
+    margin: 0 auto;
+  }
+
+  #project1 {
+    width: 65%;
+    margin-bottom: 30px;
+  }
+
+  #project2 {
+    width: 65%;
+    margin-bottom: 30px;
+  }
+  
+  #project3 {
+    width: 65%;
+    margin-bottom: 30px;
+  }
+  
+  #project4 {
+    width: 65%;
+    margin-bottom: 30px;
+  }
+  
+  #project5 {
+    width: 65%;
+    margin-bottom: 30px;
+  }
+  
+  #project6 {
+    width: 65%;
+    margin-bottom: 30px;
+  }
+  
+  #project7 {
+    width: 65%;
+    margin-bottom: 30px;
+  }
+  
+  #project8 {
+    width: 65%;
+    margin-bottom: 30px;
+  }
+
+  footer {
+    font-size: 0.85rem;
+  }
+
+  button {
+    font-size: 0.75rem;
+    padding: 10px 25px;
+  }
 }
