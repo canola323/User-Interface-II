@@ -311,10 +311,10 @@ address {
     width: 200px;
   }
 
-  /* #intro img {
+  #intro img {
     margin: auto;
     height: auto;
-    width: 100%; */
+    width: 100%;
   }
 
   img {
@@ -390,4 +390,3 @@ address {
     font-size: 0.75rem;
     padding: 10px 25px;
   }
-}
